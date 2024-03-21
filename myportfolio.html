@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>MyPortfolio</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="containr">
+                <nav>
+                    <a class="logo">
+                        <h1><span>Khu</span>mbulani!!</h1>         
+                     </a>
+                     <ul id="sidemenu">
+                          <li><a href="#header">Home</a></li>
+                          <li><a href="#about">About</a></li>
+                          <li><a href="#services">Services</a></li>
+                          <li><a href="#portfolio">Portfolio</a></li>
+                          <li><a href="#contact">Contact</a></li>
+                          <i class="fas fa-times" onclick="closemenu()"></i>
+                     </ul>                                                             
+                     <i class="fas fa-bars" onclick="openmenu()"></i>
+                    </nav>  
+                    <div class="header-text">
+                        
+                        <h2>Hi</h2>
+                        <h2> I'm khumbulani <span>Madonsela</span></h2>
+                    </div>
+            </div>
+        </div>
+        <!-------About ME moja Bana------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                <div class="about-col-1">
+                    <img src="madeFromHome/k1.JPEG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a determined, dependable, trustworthy, and passionate individual.
+                         I am a responsible team player who can easily adjust to any difficult circumstances. 
+                         I can work well both independently and in a collaborative setting. 
+                         I can stay on task and meet deadlines while working under duress.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('expirience')">Expirience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="expirience">
+                            <ul>
+                                <li><span>2021-current</span><br>UI/UX design </li>
+                                <li><span>2022-current</span><br>Building Android/iOS apps</li>
+                                <li><span>2020-current</span><br>Web app Development</li>
+                            </ul>
+
+                        </div>
+                        <div class="tab-contents" id="education">                            
+                            <ul>
+                                <li><span>2021</span><br>Html,Css,javascript,&V.B.net</li>
+                                <li><span>2022</span><br>Php & C++</li>
+                                <li><span>2023</span><br>Java, Android Studio &C#</li>
+                                <li><span>2023</span><br>Python & C#</li>
+                            </ul>
+
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!----------servives for them--------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>In web design, designers use a combination of tools, such as graphic design software like Adobe Photoshop or Sketch, and coding languages like HTML, CSS, and JavaScript, to create the overall look and feel of a website. 
+                            They pay close attention to factors such as color schemes, typography, imagery, navigation menus, 
+                            and interactive elements to ensure a seamless and intuitive user experience.</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>UI Design involves designing the visual elements of the interface, such as colors, typography, 
+                            icons, and layout. It aims to create an aesthetically pleasing and consistent design that effectively communicates the brand identity 
+                            and enhances the user's engagement with the product,</p>
+                            <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Our app aims to provide users with a seamless and intuitive experience, focusing on simplicity and functionality. 
+                            With a clean and modern interface, users can effortlessly navigate through the app's features..</p>
+                            <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!----------portfoloi---------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="madeFromHome/image.jfif">
+                        <div class="layer">
+                            <h3>Travelling App</h3>
+                           <p>🌍 Embark on your adventures with ease using our comprehensive travel app. 
+                            Whether you're planning a weekend getaway or a globetrotting expedition, our app has you covered every step of the way,</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="madeFromHome/images (1).jfif">
+                        <div class="layer">
+                            <h3>Coffee App</h3>
+                           <p>Discover a vast array of coffee varieties from around the globe, each with its own unique flavor profiles 
+                            and brewing techniques. Our comprehensive database provides detailed information on different types of coffee beans, roasting methods, 
+                            and brewing equipment, empowering you to brew the perfect cup every time</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="madeFromHome/images (2).jfif">
+                        <div class="layer">
+                            <h3>Online shopping App</h3>
+                           <p>With our app, you can browse through a vast array of products from the comfort of your own home, office, or anywhere you go.
+                             Whether you're searching for the latest fashion trends, electronics, home decor, or groceries, we've got you covered.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+               <a href="#" class="btn">See More</a> 
+            </div>
+        </div>
+        <!------------contact--------------->
+        <div id="contact">
+            <div class="container">
+               <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> khumbulanimadonsela75@gmail.com</p>
+                    <p><i class="fas fa-paper-plane"></i> khumbulanimadonsela75@outlook.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 0718379605</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"> <i class="fab fa-facebook"></i> </a>
+                        <a href="#"> <i class="fab fa-twitter-square"></i> </a>
+                        <a href="#"> <i class="fab fa-instagram"></i> </a>
+                        <a href="#"> <i class="fab fa-linkedin"></i> </a>
+                    </div>
+                    <a href="madeFromHome/Khumbulani Madonsela.CV.pdf" download class="btn btn2">Download Cv</a>
+                    <a href="madeFromHome/Java Certification from Scaler.pdf" download class="btn btn2">My Certifications</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="Your Name" required>
+                       <input type="text" name="Email" placeholder="Your Email" required>
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Message sent successfully</span>
+                </div>
+               </div>               
+            </div>
+            <div class="copyright">
+                <p>Copyright © Khumbulani. Made with <i class="fas fa-heart"></i> by Khumbulani,Grow ltds</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }            
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzBD1lDLmQq69zVlyptCR3toATI0bAXtSq5XXJeKl8SRu8xuKUxiFF3trVJgy3DtS1I/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML =""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>           
